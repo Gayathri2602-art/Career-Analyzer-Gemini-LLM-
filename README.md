@@ -20,4 +20,4 @@ Generates a structured, professional summary
 - **Large Language Model:** Google gemini-3-flash-preview  
 - **LLM SDK:** OpenAI Python SDK (OpenAI-compatible Gemini API)  
 - **Web Scraping Libraries:** BeautifulSoup4, Requests  
-- **Environment Management:** Virtual Environment (.venv)  
+- **Development Environment:** Visual Studio Code   
