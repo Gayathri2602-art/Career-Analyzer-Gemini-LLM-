@@ -13,3 +13,11 @@ Fetches job postings from the Careers page
 Filters roles related to a user-specified domain (e.g., AI, ML, Cloud, Backend)
 
 Generates a structured, professional summary
+
+## 🛠️ Technologies Used
+
+- **Programming Language:** Python 3.x  
+- **Large Language Model:** Google gemini-3-flash-preview  
+- **LLM SDK:** OpenAI Python SDK (OpenAI-compatible Gemini API)  
+- **Web Scraping Libraries:** BeautifulSoup4, Requests  
+- **Environment Management:** Virtual Environment (.venv)  
