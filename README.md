@@ -2,7 +2,7 @@
 
 This project uses Google Gemini (via API) to analyze a company website and its careers page.
 
-It automatically:
+**It automatically:**
 
 Scrapes the company website
 
@@ -15,16 +15,17 @@ Filters roles related to a user-specified domain (e.g., AI, ML, Cloud, Backend)
 Generates a structured, professional summary
 
 
-Results: You can view all outputs in code.ipynb, which demonstrates how the code works step by step and how it extracts information.
+**Results:** You can view all outputs in **code.ipynb,** which demonstrates how the code works step by step and how it extracts information.
 
-🛠️ Technologies Used
-Programming Language: Python 3.x
+**🛠️ Technologies Used**
 
-Large Language Model: Google Gemini (gemini-3-flash-preview)
+**Programming Language:** Python 3.x
 
-LLM SDK: OpenAI Python SDK (OpenAI-compatible Gemini API)
+**Large Language Model:** Google Gemini (gemini-3-flash-preview)
 
-Web Scraping Libraries: BeautifulSoup4, Requests
+**LLM SDK:** OpenAI Python SDK (OpenAI-compatible Gemini API)
 
-Development Environment: Visual Studio Code
+**Web Scraping Libraries: **BeautifulSoup4, Requests
+
+**Development Environment:** Visual Studio Code
 
