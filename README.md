@@ -35,9 +35,7 @@ This project has been enhanced with a Gradio-based web interface for better usab
 
 ✨ New Features:
 🌐 Interactive web UI
-🔗 Input any company website URL
-🎯 Specify domain (AI, ML, etc.)
-⚡ Get instant summarized results
+
 ▶️ Run the Gradio App
 upgrade_code_with_gradio .ipynb
 📸 Demo
