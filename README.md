@@ -37,7 +37,9 @@ This project has been enhanced with a Gradio-based web interface for better usab
 🌐 Interactive web UI
 
 ▶️ Run the Gradio App
+
 upgrade_code_with_gradio .ipynb
+
 📸 Demo
 ![App Screenshot](
 Job_analyzer.jpeg)
