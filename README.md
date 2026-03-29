@@ -1,4 +1,4 @@
-🧠 Careers Analyzer
+🧠 Job Analyzer
 
 This project uses Google Gemini (via API) to analyze a company website and its careers page.
 
@@ -28,4 +28,19 @@ Generates a structured, professional summary
 **Web Scraping Libraries: **BeautifulSoup4, Requests
 
 **Development Environment:** Visual Studio Code
+
+🚀 Upgrade (Gradio UI)
+
+This project has been enhanced with a Gradio-based web interface for better usability.
+
+✨ New Features:
+🌐 Interactive web UI
+🔗 Input any company website URL
+🎯 Specify domain (AI, ML, etc.)
+⚡ Get instant summarized results
+▶️ Run the Gradio App
+upgrade_code_with_gradio .ipynb
+📸 Demo
+![App Screenshot](
+Job_analyzer.jpeg)
 
