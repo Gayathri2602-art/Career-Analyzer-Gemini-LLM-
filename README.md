@@ -53,20 +53,13 @@ Development Environment: Visual Studio Code
 User Input → Web Scraping → Data Processing → Gemini API → Filtered Insights → Output
 
 🔹 Key Components
-Web Scraper
+Web Scraper --> Uses requests + BeautifulSoup to extract website data
 
-    Uses requests + BeautifulSoup to extract website data
+LLM Processing --> Gemini API generates summaries and insights
 
-LLM Processing
+Filtering Logic --> Matches job roles with user-defined domains
 
-    Gemini API generates summaries and insights
-
-Filtering Logic
-
-    Matches job roles with user-defined domains
-
-Notebook Workflow
-Implemented step-by-step in code.ipynb
+Notebook Workflow ---> Implemented step-by-step in code.ipynb
 
 ---
 🚀 Upgrade (Gradio UI)
@@ -86,7 +79,7 @@ This project has been enhanced with a Gradio-based web interface for improved us
 ---
 ▶️ Run the Gradio App
 
-jupyter notebook upgrade_code_with_gradio.ipynb
+    jupyter notebook upgrade_code_with_gradio.ipynb
 
 ---
 
