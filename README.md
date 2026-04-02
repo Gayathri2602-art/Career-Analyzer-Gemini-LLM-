@@ -54,16 +54,20 @@ User Input → Web Scraping → Data Processing → Gemini API → Filtered Insi
 
 🔹 Key Components
 Web Scraper
-Uses requests + BeautifulSoup to extract website data
+
+    Uses requests + BeautifulSoup to extract website data
 
 LLM Processing
-Gemini API generates summaries and insights
+
+    Gemini API generates summaries and insights
 
 Filtering Logic
-Matches job roles with user-defined domains
+
+    Matches job roles with user-defined domains
 
 Notebook Workflow
-Implemented step-by-step in code.ipynb
+
+    Implemented step-by-step in code.ipynb
 
 ---
 🚀 Upgrade (Gradio UI)
