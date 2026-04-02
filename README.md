@@ -1,46 +1,103 @@
 🧠 Job Analyzer
 
-This project uses Google Gemini (via API) to analyze a company website and its careers page.
+An AI-powered project that uses Google Gemini to analyze a company’s website and its careers page, providing structured insights about the company and relevant job opportunities.
 
-**It automatically:**
+---
 
-Scrapes the company website
+🚀 Features
 
-Extracts a company overview
+🌐 Scrapes the company website
 
-Fetches job postings from the careers page
+🏢 Extracts a clear company overview
 
-Filters roles related to a user-specified domain (e.g., AI, ML, Cloud, Backend)
+💼 Fetches job postings from the careers page
 
-Generates a structured, professional summary
+🎯 Filters roles based on a user-specified domain (e.g., AI, ML)
 
+🧾 Generates a structured and professional summary
 
-**Results:** You can view all outputs in **code.ipynb,** which demonstrates how the code works step by step and how it extracts information.
+---
 
-**🛠️ Technologies Used**
+🛠️ Technologies Used
 
-**Programming Language:** Python 3.x
+Programming Language: Python 3.x
 
-**Large Language Model:** Google Gemini (gemini-3-flash-preview)
+Large Language Model: Google Gemini (gemini-3-flash-preview)
 
-**LLM SDK:** OpenAI Python SDK (OpenAI-compatible Gemini API)
+LLM SDK: OpenAI Python SDK (Gemini-compatible API)
 
-**Web Scraping Libraries: **BeautifulSoup4, Requests
+Web Scraping: BeautifulSoup4, Requests
 
-**Development Environment:** Visual Studio Code
+Development Environment: Visual Studio Code
 
+---
+⚙️ How It Works
+
+The user provides a company website URL
+
+The system scrapes website content
+
+It identifies and extracts the careers page
+
+Job listings are collected and processed
+
+Gemini analyzes:
+
+Company overview
+
+Job descriptions
+
+Relevant roles are filtered based on the selected domain
+
+A structured summary is generated and displayed
+
+🧩 Technical Implementation
+
+🔹 Architecture
+User Input → Web Scraping → Data Processing → Gemini API → Filtered Insights → Output
+
+🔹 Key Components
+Web Scraper
+Uses requests + BeautifulSoup to extract website data
+
+LLM Processing
+Gemini API generates summaries and insights
+
+Filtering Logic
+Matches job roles with user-defined domains
+
+Notebook Workflow
+Implemented step-by-step in code.ipynb
+
+---
 🚀 Upgrade (Gradio UI)
 
-This project has been enhanced with a Gradio-based web interface for better usability.
+This project has been enhanced with a Gradio-based web interface for improved usability and interaction.
 
-✨ New Features:
+---
+
+✨ New Features
+
 🌐 Interactive web UI
 
+⚡ Real-time analysis and results
+
+🎯 Easy input for company URL and domain
+
+---
 ▶️ Run the Gradio App
 
-upgrade_code_with_gradio .ipynb
+jupyter notebook upgrade_code_with_gradio.ipynb
+
+---
 
 📸 Demo
 ![App Screenshot](
 Job_analyzer.jpeg)
+
+💡 Future Improvements
+🔍 Advanced job filtering (experience, location, salary)
+📊 Dashboard for insights visualization
+🤖 Resume matching with job roles
+🌍 Support for multiple company comparisons
 
