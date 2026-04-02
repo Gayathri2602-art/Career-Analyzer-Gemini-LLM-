@@ -33,23 +33,19 @@ Development Environment: Visual Studio Code
 ---
 ⚙️ How It Works
 
-The user provides a company website URL
+1. The user provides a company website URL
 
-The system scrapes website content
+2. The system scrapes website content
 
-It identifies and extracts the careers page
+3. It identifies and extracts the careers page
 
-Job listings are collected and processed
+4. Job listings are collected and processed
 
-Gemini analyzes:
+5. Gemini analyzes: Company overview, Job descriptions, Relevant roles are filtered based on the selected domain
 
-Company overview
+6. A structured summary is generated and displayed
 
-Job descriptions
-
-Relevant roles are filtered based on the selected domain
-
-A structured summary is generated and displayed
+---
 
 🧩 Technical Implementation
 
