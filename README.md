@@ -91,8 +91,6 @@ Job_analyzer.jpeg)
 
 💡 Future Improvements
 
-🔍 Advanced job filtering (experience, location, salary)
-
 📊 Dashboard for insights visualization
 
 🤖 Resume matching with job roles
