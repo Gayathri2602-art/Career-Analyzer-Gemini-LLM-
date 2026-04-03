@@ -87,6 +87,8 @@ This project has been enhanced with a Gradio-based web interface for improved us
 ![App Screenshot](
 Job_analyzer.jpeg)
 
+---
+
 💡 Future Improvements
 
 🔍 Advanced job filtering (experience, location, salary)
